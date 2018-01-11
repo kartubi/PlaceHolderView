@@ -96,6 +96,16 @@ public class ImageTypeBig {
         .addView(new ImageTypeBig(this.getApplicationContext(), mGalleryView, url3));
         .addView(new ImageTypeBig(this.getApplicationContext(), mGalleryView, url4));
 ```
+
+
+## OPSIONAL : Set view from bottom
+```java
+
+  LinearLayoutManager mLayoutManager = new LinearLayoutManager(this);
+        //user setReverse only
+        mLayoutManager.setReverseLayout(true);
+        placeHolderView.setLayoutManager(mLayoutManager);
+```
 ## **That's All! Cheers!** :beer:
 
 ## Classes OverView
